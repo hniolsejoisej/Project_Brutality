@@ -625,7 +625,7 @@ ACTOR PB_QuadSG : PB_Weapon
 					A_FireProjectile("ShotgunWad",random(-1,1),0,-10,-2,FPF_NOAUTOAIM,random(-1,1));
 					A_FireCustomMissile("YellowFlareSpawn", 15, 0, 0, 0);
           PB_FireBullets("PB_8GAPellet_LP", 4, 0, 0, 0, 0);						
-          PB_FireBullets("PB_8GAPellet", 48,7, 0, 0, 5);
+          PB_FireBullets("PB_8GAPellet", 144,7, 0, 0, 5);
 					/*A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
 					A_FireBullets(0, 0, 1, 100, "shotpuff", 0, 220);
 					 A_FireBullets (17, 9, 10, 10, "ShotgunPuff"); 
@@ -659,7 +659,7 @@ ACTOR PB_QuadSG : PB_Weapon
 					A_FireProjectile("ShotgunWad",random(-1,1),0,-10,-2,FPF_NOAUTOAIM,random(-1,1));
 					A_FireCustomMissile("YellowFlareSpawn", 15, 0, 0, 0);
           PB_FireBullets("PB_8GAPellet_LP", 2, 0, 0, 0, 0);						
-          PB_FireBullets("PB_8GAPellet", 24,7, 0, 0, 5);
+          PB_FireBullets("PB_8GAPellet", 72,7, 0, 0, 5);
 					/*A_FireBullets(0, 0, 1, 100, "shotpuff", 0, 220);
 					A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
 					A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
@@ -685,7 +685,7 @@ ACTOR PB_QuadSG : PB_Weapon
 				If (CountInv("BreathMode") != 1) {
 					A_FireProjectile("ShotgunWad",random(-1,1),0,-6,-2,FPF_NOAUTOAIM,random(-1,1));
 					A_FireCustomMissile("YellowFlareSpawn", 15, 0, 0, 0);
-					PB_FireBullets("PB_8GAPellet", 12,7, 0, 0, 5);
+					PB_FireBullets("PB_8GAPellet", 36,7, 0, 0, 5);
 					/*A_FireBullets(0, 0, 1, 100, "shotpuff", 0, 220);
 					A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
 					A_FireCustomMissile("GunFireSmokE", 0, 0, 2, 0, 0, 0);*/
@@ -816,7 +816,7 @@ ACTOR PB_QuadSG : PB_Weapon
 					A_FireProjectile("ShotgunWad",random(-1,1),0,6,-2,FPF_NOAUTOAIM,random(-1,1));
 					A_FireCustomMissile("YellowFlareSpawn", 15, 0, 0, 0);
           PB_FireBullets("PB_8GAPellet_LP", 4, 0, 0, 0, 0);						
-          PB_FireBullets("PB_8GAPellet", 48,7, 0, 0, 5);
+          PB_FireBullets("PB_8GAPellet", 144,7, 0, 0, 5);
 					/*A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
 					A_FireBullets(0, 0, 1, 100, "shotpuff", 0, 220);
 					 A_FireBullets (17, 9, 10, 10, "ShotgunPuff"); 
@@ -849,7 +849,7 @@ ACTOR PB_QuadSG : PB_Weapon
 					A_FireProjectile("ShotgunWad",random(-1,1),0,10,-2,FPF_NOAUTOAIM,random(-1,1));
 					A_FireCustomMissile("YellowFlareSpawn", 15, 0, 0, 0);
           PB_FireBullets("PB_8GAPellet_LP", 2, 0, 0, 0, 0);						
-          PB_FireBullets("PB_8GAPellet", 24,7, 0, 0, 5);
+          PB_FireBullets("PB_8GAPellet", 72,7, 0, 0, 5);
 					/*A_FireBullets(0, 0, 1, 100, "shotpuff", 0, 220);
 					A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
 					A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
@@ -873,7 +873,7 @@ ACTOR PB_QuadSG : PB_Weapon
 				if (CountInv("BreathMode") != 1) {
 					A_FireProjectile("ShotgunWad",random(-1,1),0,6,-2,FPF_NOAUTOAIM,random(-1,1));
 					A_FireCustomMissile("YellowFlareSpawn", 15, 0, 0, 0);
-          PB_FireBullets("PB_8GAPellet", 12,7, 0, 0, 5);
+          PB_FireBullets("PB_8GAPellet", 36,7, 0, 0, 5);
 					/*A_FireBullets(0, 0, 1, 100, "shotpuff", 0, 220);
 					A_FireBullets (17, 9, 10, 10, "ShotgunPuff");
 					A_FireCustomMissile("GunFireSmokE", 0, 0, 2, 0, 0, 0);*/
